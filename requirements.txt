@@ -1,0 +1,7 @@
+streamlit
+pandas
+openai
+langchain
+chromadb
+tiktoken
+pandasai
