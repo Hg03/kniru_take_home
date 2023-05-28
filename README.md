@@ -38,3 +38,11 @@ Therefore first, I've converted it into csv dataframe format with columns :
 - I've used streamlit to create a beautiful interface where user can enter their OPENAI API key and upload their data.
 - Then they can communicate and query , according to the data.
 
+ 
+
+https://github.com/Hg03/kniru_take_home/assets/69637720/5135b6e4-0fcd-471b-8c4e-fe2c62376f60
+
+
+ 
+ ## Limitation 
+ - Well, we can expand and make the chatbot more accurate, if we add more field and data to the chatbot, so that It can understand the data more.
