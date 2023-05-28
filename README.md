@@ -7,7 +7,7 @@
 - The chatbot should use a user's transactions as the source of data for providing financial insights and advice. The transactions should include information such as date, amount, category, and description. The chatbot should be able to analyze the transactions and extract useful information, such as spending patterns, income sources, savings goals, etc.
 - The chatbot should be able to provide personalized financial advice based on the user's transactions and goals. The chatbot should be able to understand the user's context and preferences, and provide relevant and actionable suggestions. The chatbot should also be able to explain the rationale behind its advice and provide evidence or examples to support it.
 
-## Implementation 
+## Implementation (Data creation)
 - As we have in form of Json structure or can be converted into CSV format i.e. 
 
 ```javascript
@@ -21,4 +21,20 @@ Therefore first, I've converted it into csv dataframe format with columns :
 4. **Category -** In which category, transaction occurs.
 5. **Description -** What is bought or sold in that category.
 
-![Data creation]()
+![Data creation](https://github.com/Hg03/kniru_take_home/blob/main/images/Snap1.png)
+
+## Implementation (Creating chatbot)
+- [Langchain](https://python.langchain.com/en/latest/index.html) is a framework for developing applications powered by language models. We believe that the most powerful and differentiated applications will not only call out to a language model. Here I've used conversation chain of langchain which helps to build a conversation bot using custom csv data. 
+- [Chains](https://python.langchain.com/en/latest/modules/chains.html) - Using an LLM in isolation is fine for some simple applications, but many more complex ones require chaining LLMs - either with each other or with other experts. LangChain provides a standard interface for Chains, as well as some common implementations of chains for ease of use.)
+
+**Steps -**
+- First I've loaded the csv data and creates its index data.
+- Then pass it to our conversation retrieval chain of langchain.
+- We'll query it.
+
+![bot](https://github.com/Hg03/kniru_take_home/blob/main/images/Snap2.png)
+
+## Implementation (Interface)
+- I've used streamlit to create a beautiful interface where user can enter their OPENAI API key and upload their data.
+- Then they can communicate and query , according to the data.
+
