@@ -40,7 +40,7 @@ Therefore first, I've converted it into csv dataframe format with columns :
 - I've used streamlit to create a beautiful interface where user can enter their OPENAI API key and upload their data.
 - Then they can communicate and query , according to the data.
 
- 
+**Note** - Upload the data **synthetic_data.csv** to make the financial bot work. Because thats the data I've prepared from yhe problem statement given above.
 
 https://github.com/Hg03/kniru_take_home/assets/69637720/5135b6e4-0fcd-471b-8c4e-fe2c62376f60
 
