@@ -1,5 +1,7 @@
 # Personal Financial Chatbot 🤖🤖
 
+![intro](https://github.com/Hg03/kniru_take_home/blob/main/images/IMG_20230528_145234.png)
+
 ## Requirements
 -> We are required to build a personal financial management chatbot using OpenAI's language model. The chatbot should have the following features:
 - The chatbot should provide a conversational interface where users can interact with the chatbot to ask questions about their finances, get insights from their transaction history, or receive personalized financial advice. The chatbot should be able to handle different types of user queries, such as factual, analytical, or advisory.
