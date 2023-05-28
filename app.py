@@ -84,4 +84,4 @@ with st.container():
     mdlit('**Project Repository - [kniru take home](https://github.com/Hg03/kniru_take_home)**')
     mdlit('**Linkedin - [harish gehlot](https://www.linkedin.com/in/harish-gehlot-5338a021a/)**')
 
-#streamlit run tuto_chatbot_csv.py
+
